@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Merge Civ 简中汉化脚本
 // @namespace    https://www.g8hh.com.cn/
-// @version      0.0.1
+// @version      0.0.3
 // @description  网页游戏 Merge Civ (https://mergeciv.io/) 的简体中文汉化脚本。Simplified Chinese i18n script for web game Merge Civ.
 // @author       好阳光的小锅巴 & 麦子
 // @copyright    锅巴汉化
@@ -271,18 +271,19 @@ var cnItems = {
     "legacy": "遗产",
     "Tile Palette": "地块面板",
     "Requires Early Resettlement Upgrade": "需要早期安置升级",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
+    "Infused Harvest": "灌注采集",
+    "Mana Pool": "法力池",
+    "Spells": "法术",
+    "Upheaval": "颠覆",
+    "Upheaval:": "颠覆:",
+    "UPHEAVAL": "颠覆",
+    "Destroys a tile to make space.": "摧毁一个地块以腾出空间。",
+    "Unlock Spell: Harvest with Tier Multiplier (Cost: 100 Mana).": "解锁法术：收获与层数乘数（消耗：100法力值）。",
+    "HARVEST": "收获",
+    "Infuse": "灌注",
+    "Resettle for": "重新安置并获得",
+    "Castle": "城堡",
+    "Harvests (4x) & Boosts 8 surrounding resources": "收获（4x）并提升周边 8 种资源的产量",
     "": "",
     "": "",
     "": "",
@@ -900,6 +901,7 @@ var cnRegReplace = new Map([
     [/^([\d\.]+)h ([\d\.]+)m$/, '$1小时 $2分'],
     [/^([\d\.]+)m ([\d\.]+)s$/, '$1分钟 $2秒'],
     [/^([\d\.]+)e([\d\.,]+) elves$/, '$1e$2 精灵'],
+    [/^([\d\.,]+) Mana$/, '$1 法力'],
     [/^([\d\.,]+) elves$/, '$1 精灵'],
     [/^\+([\d\.,]+) elves$/, '+$1 精灵'],
     [/^\-([\d\.,]+) elves$/, '-$1 精灵'],
@@ -911,6 +913,7 @@ var cnRegReplace = new Map([
     [/^Population  ([\d\.,]+)$/, '人口 $1'],
     [/^Day ([\d\.,]+)$/, '天数 $1'],
     [/^\*(.+) to electricity gain$/, '\*$1 到电力增益'],
+    [/^Cost: (.+) Mana$/, '成本：$1 法力'],
     [/^Cost: (.+) points$/, '成本：$1 点数'],
     [/^Req: (.+) elves$/, '要求：$1 精灵'],
     [/^Req: (.+) \/ (.+) elves$/, '要求：$1 \/ $2 精灵'],
