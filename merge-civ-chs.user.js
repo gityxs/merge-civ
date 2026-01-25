@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Merge Civ 简中汉化脚本
 // @namespace    https://www.g8hh.com.cn/
-// @version      0.0.5
+// @version      0.0.9
 // @description  网页游戏 Merge Civ (https://mergeciv.io/) 的简体中文汉化脚本。Simplified Chinese i18n script for web game Merge Civ.
 // @author       好阳光的小锅巴 & 麦子
 // @copyright    锅巴汉化
@@ -315,19 +315,19 @@ var cnItems = {
     "Starting Resources": "初始资源",
     "Total Next Run:": "下一次运行总计：",
     "Warning: Ascending resets your grid, standard resources, gold upgrades, and culture points.": "警告：转生会重置你的网格，标准资源，金币升级和文化点。",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
+    "A massive structure that channels earth energy. Persists through Ascension.": "一个能够引导地球能量的巨大结构。持续至转生。",
+    "A neo-economic shift focusing on reinvestment. Increases all resource yields.": "一种以再投资为核心的新经济模式。能提高所有资源的产出量。",
+    "Crystal": "水晶",
+    "Mana Monolith": "法力巨石",
+    "Reinvestment": "再投资",
+    "Ritual of Quality": "质量仪式",
+    "Maxxed Magic Book": "满级魔法书",
+    "Current:": "当前:",
+    "Next:": "下一级:",
+    "Fission": "裂变",
+    "INFUSE": "灌注",
+    "Mana Syphon": "法力虹吸",
+    "When mana is maxxed out, extra will automatically charge the crystal.": "当法力值达到最大值时，额外的法力值会自动充能水晶。",
     "": "",
     "": "",
     "": "",
@@ -605,7 +605,7 @@ var cnPrefix = {
     "Increases grid size to ": "增加网格尺寸到 ",
     "Base (Pop  ": "基础 (Pop  ",
     "Max Charges: ": "最大充能: ",
-    "": "",
+    "Scouts Tiers ": "侦查层级 ",
     "": "",
     "": "",
     "": "",
