@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Merge Civ 简中汉化脚本
 // @namespace    https://www.g8hh.com.cn/
-// @version      0.0.9
+// @version      0.0.10
 // @description  网页游戏 Merge Civ (https://mergeciv.io/) 的简体中文汉化脚本。Simplified Chinese i18n script for web game Merge Civ.
 // @author       好阳光的小锅巴 & 麦子
 // @copyright    锅巴汉化
@@ -328,6 +328,21 @@ var cnItems = {
     "INFUSE": "灌注",
     "Mana Syphon": "法力虹吸",
     "When mana is maxxed out, extra will automatically charge the crystal.": "当法力值达到最大值时，额外的法力值会自动充能水晶。",
+    "Automatically purchases affordable Tier 1 upgrades every 10 seconds.": "每隔 10 秒钟会自动购买价格合理的顶级升级物品。",
+    "Inspect Grid": "检查网格",
+    "Increases Prestige Culture gain.": "增加声望文化增益。",
+    "Splits a tile into two lower tier tiles.": "将一个地块分割成两个较低层级的地块。",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
     "": "",
     "": "",
     "": "",
@@ -606,7 +621,7 @@ var cnPrefix = {
     "Base (Pop  ": "基础 (Pop  ",
     "Max Charges: ": "最大充能: ",
     "Scouts Tiers ": "侦查层级 ",
-    "": "",
+    "Reinvestment (": "再投资 (",
     "": "",
     "": "",
     "": "",
@@ -791,6 +806,7 @@ var cnRegReplace = new Map([
     [/^You have (.+) points$/, '你有 $1 点数'],
     [/^Next at (.+) points$/, '下一个在 $1 点数'],
     [/^Current: (.+) Base Cap$/, '当前: $1 基础上限'],
+    [/^Current: (.+) Resource Yield$/, '当前: $1 资源产出'],
     [/^Current: (.+) Storage$/, '当前: $1 存储'],
     [/^Jan ([\d\.,]+)$/, '1 月 $1'],
     [/^Feb ([\d\.,]+)$/, '2 月 $1'],
