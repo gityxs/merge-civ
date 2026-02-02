@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Merge Civ 简中汉化脚本
 // @namespace    https://www.g8hh.com.cn/
-// @version      0.0.10
+// @version      0.0.12
 // @description  网页游戏 Merge Civ (https://mergeciv.io/) 的简体中文汉化脚本。Simplified Chinese i18n script for web game Merge Civ.
 // @author       好阳光的小锅巴 & 麦子
 // @copyright    锅巴汉化
@@ -11,8 +11,8 @@
 // @include      *https://mergeciv.io/*
 // @grant        none
 // @website      https://www.gityx.com/
-// @updateURL    https://g8hh.com.cn/zh/tampermonkey/iqrpg-chs.user.js
-// @downloadURL    https://g8hh.com.cn/zh/tampermonkey/iqrpg-chs.user.js
+// @updateURL    https://g8hh.com.cn/zh/tampermonkey/merge-civ-chs.user.js
+// @downloadURL    https://g8hh.com.cn/zh/tampermonkey/merge-civ-chs.user.js
 // ==/UserScript==
 /**
  * ---------------------------
