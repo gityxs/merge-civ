@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Merge Civ 简中汉化脚本
 // @namespace    https://www.g8hh.com.cn/
-// @version      0.0.13
+// @version      0.0.14
 // @description  网页游戏 Merge Civ (https://mergeciv.io/) 的简体中文汉化脚本。Simplified Chinese i18n script for web game Merge Civ.
 // @author       好阳光的小锅巴 & 麦子
 // @copyright    锅巴汉化
@@ -348,7 +348,7 @@ var cnItems = {
     "Unlocks Crystal Upgrades.": "解锁水晶升级。",
     "Unlocks Gold Upgrades.": "解锁黄金升级。",
     "Soft Reset (Retry)": "软重置 (重试)",
-    "": "",
+    "SPEED BOOST:": "速度提升:",
     "": "",
     "": "",
     "": "",
