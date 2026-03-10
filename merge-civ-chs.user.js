@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Merge Civ 简中汉化脚本
 // @namespace    https://www.g8hh.com.cn/
-// @version      0.0.18
+// @version      0.0.19
 // @description  网页游戏 Merge Civ (https://mergeciv.io/) 的简体中文汉化脚本。Simplified Chinese i18n script for web game Merge Civ.
 // @author       好阳光的小锅巴 & 麦子
 // @copyright    锅巴汉化
@@ -413,7 +413,7 @@ var cnItems = {
     "Synced": "已同步",
     "Cloud save enabled": "云保存已启用",
     "just now": "刚刚",
-    "": "",
+    "Save Transfer (Dev)": "存档传输（开发）",
     "": "",
     "": "",
     "": "",
