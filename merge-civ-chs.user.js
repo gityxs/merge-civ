@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Merge Civ 简中汉化脚本
 // @namespace    https://www.g8hh.com.cn/
-// @version      0.0.29
+// @version      0.0.31
 // @description  网页游戏 Merge Civ (https://mergeciv.io/) 的简体中文汉化脚本。Simplified Chinese i18n script for web game Merge Civ.
 // @author       好阳光的小锅巴 & 麦子
 // @copyright    锅巴汉化
@@ -606,10 +606,10 @@ var cnItems = {
     "Grid Full": "网格已满",
     "Unlocks Epic tier Artifacts.": "解锁史诗层级神器。",
     "tribute": "贡品",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
+    "Build Library": "建造图书馆",
+    "Culture / hr": "文化 / 小时",
+    "Current Libraries:": "当前图书馆:",
+    "Increases Knowledge Cap by": "提高知识上限",
     "": "",
     "": "",
     "": "",
@@ -1004,7 +1004,7 @@ var cnPostfix = {
     "x Res. Gen": "x 资源生成",
     " Gold/Pop": " 黄金/人口",
     " culture / min": " 文化 / 分钟",
-    "": "",
+    " Mana / Pop": " 法力 / 人口",
     "": "",
     "": "",
     "": "",
