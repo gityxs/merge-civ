@@ -613,7 +613,7 @@ var cnItems = {
     "Merges": "合并",
     "Profile": "个人资料",
     "Unnamed Civilization": "未命名文明",
-    "": "",
+    "Terms of Service": "服务条款",
     "": "",
     "": "",
     "": "",
